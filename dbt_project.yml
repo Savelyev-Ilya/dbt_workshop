@@ -33,3 +33,6 @@ models:
     staging:
       +materialized: view
       +tags: staging
+    marts:
+      +materialized: view
+      +tags: marts
